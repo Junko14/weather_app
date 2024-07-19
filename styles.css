@@ -1,0 +1,198 @@
+body{
+    background: #8C52FF ;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+/* rgba(255, 255, 255, 0,3);  */
+#weather-container{
+    background: rgba(255, 255, 255, 0.3);
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border:1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    
+}
+h1, label,p{
+    color:#fff;
+    margin:8px 0;
+}
+input{
+    width: calc(100% -16px);
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+button{
+    background: #debff4;
+    color:white;
+    padding: 10px;
+    border:none;
+    border-radius:10px;
+    cursor: pointer;
+    margin-top:20px;
+    width: 100px;
+    font-size: 15px;
+}
+button:hover{
+    background: #8b48d7;
+}
+#temp-div p {
+    font-size: 60px;
+    margin-top: -30px;
+}
+#weather-info{
+    font-size: 20px;
+  
+}
+#weather-icon{
+    width:200px;
+    height:200px;
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+    display: none;
+}
+#hourly-forecast{
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+.hourly-item{
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color:white;
+}
+.hourly-item img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+#hourly-heading{
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* #weather-info{background-color: ghostwhite; */
+
+/*  */
+/* Select city section */
+/* #dropdown-list {
+    display: none;
+}
+.gnavi__wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.gnavi__list {
+    width: 20%;
+    height: 60px;
+    background-color: #E5F0F8;
+    position: relative;
+    transition: all .3s;
+    padding-left:0;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.gnavi__list:hover {
+    background-color: #0071BB;
+}
+.gnavi__list:not(:first-child)::before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+}
+.gnavi__list:hover::before {
+    background-color: #0071BB;
+}
+.gnavi__list a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #1b4059;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    transition: all .3s;
+}
+.gnavi__list:hover a {
+    color: #fff;
+ } */
+
+/* Select city dropdown section */
+/* .dropdown__lists {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.gnavi__list:hover .dropdown__lists {
+    display: block;/*Gnavi hover-->display*/
+/* } */ 
+
+
+/* .dropdown__list {
+    background-color: #004d80;
+    height: 60px;
+    transition: all .3s;
+    position: relative;
+    list-style:none;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+.dropdown__list:not(:first-child)::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #3492d1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dropdown__list:hover {
+    background-color: #003558;
+}
+.dropdown__list a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+} */
+
+/* .dropdown__list{
+    vertical-align: middle;
+} */
+/* #weather-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;}
+.gnavi__list:hover #weather-info {
+        display: none;
+    } */
